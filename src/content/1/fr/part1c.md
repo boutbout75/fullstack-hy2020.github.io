@@ -629,7 +629,7 @@ const App = () => {
 
 Étant donné que nous avons maintenant un composant <i>Button</i> facilement réutilisable, nous avons également implémenté une nouvelle fonctionnalité dans notre application en ajoutant un bouton qui peut être utilisé pour décrémenter le compteur.
 
-Le gestionnaire d'événements est passé au composant <i>Button</i> via la prop _handleClick_. Le nom de la prop en lui-même n'est pas très significatif, mais notre choix de nom n'était pas complètement aléatoire.
+Le gestionnaire d'événements est passé au composant <i>Button</i> via la prop _onClick_. Le nom de la prop en lui-même n'est pas très significatif, mais notre choix de nom n'était pas complètement aléatoire.
 
 Le [tutoriel](https://react.dev/learn/tutorial-tic-tac-toe) officiel de React suggère : "En React, il est conventionnel d'utiliser des noms de type onSomething pour les props qui représentent des événements et handleSomething pour les définitions de fonctions qui gèrent ces événements."
 
